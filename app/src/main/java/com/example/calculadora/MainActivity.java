@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     public void somar(View v) {
         int num1 = Integer.parseInt(n1.getText().toString());
         int num2 = Integer.parseInt(n2.getText().toString());
-        int tl = num1 + num2;
+        int tl = num1 + num2 + 1;
         Resultado.setVisibility(View.VISIBLE);
         Resultado.setText(tl + "");
     }
